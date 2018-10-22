@@ -6,6 +6,9 @@ jobs:
             - image: circleci/node:6.10
         working_directory: ~/UsmanWebsite
         steps:
+            - add_ssh_keys:
+                fingerprints:
+                    - "fc:ac:29:ff:de:69:b7:12:f4:7a:fa:0c:ba:5f:02:d0"
             - checkout
             - run:
                 name: Install Hugo
