@@ -8,7 +8,7 @@ jobs:
         steps:
             - add_ssh_keys:
                 fingerprints:
-                    - "fc:ac:29:ff:de:69:b7:12:f4:7a:fa:0c:ba:5f:02:d0"
+                    - "7b:e3:be:a4:da:e7:9b:37:95:cf:2a:ce:ae:bc:a1:19"
             - checkout
             - run:
                 name: Install Hugo
