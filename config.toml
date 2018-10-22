@@ -1,0 +1,34 @@
+baseurl = "https://usmanmuhd.com"
+title = "Muhammad Usman"
+copyright = "Copyright &copy; 2018 - Muhammad Usman"
+canonifyurls = true
+theme = "kiera"
+
+disqusShortname = "usmanmuhd-com"
+googleAnalytics = "UA-119994668-1"
+
+paginate = 3
+
+publishDir = "docs"
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "Muhammad Usman"
+    github = "usmanmuhd"
+    gitlab = "usmanmuhd"
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    tagline = ""
+
+
+[[menu.main]]
+	name = "Blog"
+	weight = 1
+	url = "/posts/"
